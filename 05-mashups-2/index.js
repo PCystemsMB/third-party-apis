@@ -10,7 +10,7 @@ const {client_id, client_secret, scope} = require("./auth/credentials.json");
 const port = 3000;
 
 const all_sessions = [];
-server = http.createServer();
+const server = http.createServer();
 
 server.on("listening", listen_handler);
 server.listen(port);
