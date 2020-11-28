@@ -11,7 +11,7 @@ const host = "localhost" // Side note localhost can also be accessed using IPv6 
 const port = 3000;
 
 const task_states = [];
-server = http.createServer();
+const server = http.createServer();
 
 server.on("listening", listen_handler);
 server.listen(port);
